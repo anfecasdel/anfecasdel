@@ -317,3 +317,58 @@ body {
   padding-left: 0.5vw;
   color: whitesmoke;
 }
+
+@media (max-width: 425px) {
+  .contenedor_uno_tres {
+    right: 30%;
+    width: 27vw;
+    bottom: -9px;
+  }
+
+  .imagen_otra_ciudad img {
+    width: 6vw;
+  }
+
+  .div_nombre_pais_otra p {
+    font-size: 2vw;
+  }
+
+  .contenedor_uno_tres_dos_uno p {
+    font-size: 1.5vw;
+  }
+
+  .contenedor_dos {
+    width: 100%;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .contenedor_dos_uno {
+    width: 40%;
+    margin-left: 5%;
+  }
+
+  .contenedor_dos_uno_dos_uno_uno {
+    justify-content: flex-start;
+  }
+
+  .div_imagen_dia img {
+    width: 8vw;
+  }
+
+  .div_texto_dia p {
+    font-size: 2vw;
+  }
+
+  .movil {
+    display: none;
+  }
+
+  .contenedor_dos_uno_dos_uno_dos p {
+    font-size: 2vw;
+  }
+
+  .contenedor_lugar_visitar {
+    background-size: cover;
+  }
+}
