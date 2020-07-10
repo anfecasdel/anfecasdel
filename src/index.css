@@ -40,6 +40,36 @@ body {
   height: 55%;
   border-radius: 0 38% 40% 40%;
   background: #323288;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div_clima_bogota_icono {
+  height: 80%;
+}
+
+.div_clima_bogota {
+  margin-top: -12px;
+}
+
+.div_clima_bogota p {
+  margin: 0;
+  color: white;
+  font-size: 0.9vw;
+}
+
+.contenedor_uno_uno_dos {
+  display: flex;
+  justify-content: center;
+  height: 43%;
+  align-items: center;
+}
+
+.contenedor_uno_uno_dos p {
+  margin: 0;
+  font-size: 3vw;
+  color: white;
 }
 
 .contenedor_uno_dos {
@@ -49,14 +79,33 @@ body {
   margin-left: 5%;
   height: 22vw;
   border-radius: 15px;
+  background-image: url("images/bogota.jpg");
+  background-size: cover;
 }
 
 .contenedor_uno_dos_uno {
-  width: 10vw;
+  width: 8vw;
   position: absolute;
   top: 23%;
   left: 10%;
   height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icono_lugar img {
+  width: 2vw;
+}
+
+.nombre_ciudad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nombre_ciudad p {
+  color: blanchedalmond;
+  margin: 0;
 }
 
 .contenedor_uno_dos_dos {
@@ -65,6 +114,44 @@ body {
   top: 49%;
   left: 10%;
   height: auto;
+}
+
+.imagen_otra_ciudad {
+  background: #dee7f6;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_ciudad_pais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_nombre_ciudad_otra p {
+  margin: 0;
+}
+
+.div_nombre_pais_otra p {
+  margin: 0;
+  font-size: 1vw;
+}
+
+.div_temp_otra {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div_temp_otra p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 3vw;
+  border-right: 1px solid;
+  padding-right: 0.2vw;
 }
 
 .contenedor_uno_tres {
@@ -100,7 +187,15 @@ body {
 }
 
 .contenedor_uno_tres_dos_uno {
-  width: 20%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor_uno_tres_dos_uno p {
+  margin: 0;
+  font-size: 1vw;
 }
 
 .contenedor_dos {
@@ -109,7 +204,7 @@ body {
   top: 0;
   display: flex;
   justify-content: space-between;
-  width: 85%;
+  width: 56%;
   margin-left: 5%;
   align-items: center;
 }
@@ -125,11 +220,21 @@ body {
 .contenedor_dos_uno_uno {
   width: 90%;
   height: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor_dos_uno_uno p {
+  margin: 0;
+}
+
+.contenedor_dos_uno_uno span {
+  font-weight: bold;
 }
 
 .contenedor_dos_uno_dos {
   width: 90%;
-  height: 60%;
+  height: 80%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -144,17 +249,41 @@ body {
 }
 
 .contenedor_dos_uno_dos_uno {
-  height: 25%;
+  height: 30%;
   display: flex;
   justify-content: space-between;
+  box-shadow: -1px 2px #c7c7c7;
+  border-radius: 10px;
 }
 
 .contenedor_dos_uno_dos_uno_uno {
   width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.div_imagen_dia img {
+  width: 4vw;
+}
+
+.div_texto_dia p {
+  margin: 0;
+  font-size: 1vw;
 }
 
 .contenedor_dos_uno_dos_uno_dos {
   width: 45%;
+  background: #7d67ed;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor_dos_uno_dos_uno_dos p {
+  margin: 0;
+  font-size: 1.5vw;
 }
 
 .contenedor_dos_dos {
@@ -173,14 +302,18 @@ body {
   height: 45%;
 }
 
-.b1 {
-  border: 1px solid red;
+.contenedor_lugar_visitar {
+  width: 90%;
+  height: 80%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 1vw;
+  padding-top: 1vw;
+  background-image: url("images/singapore.jpg");
 }
 
-.b2 {
-  border: 1px solid blue;
-}
-
-.b3 {
-  border: 1px solid black;
+.nombre_ciudad_visitar p {
+  margin: 0;
+  padding-left: 0.5vw;
+  color: whitesmoke;
 }

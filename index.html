@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GradiWeb</title>
+    <link rel="stylesheet" href="src/index.css" />
+  </head>
+
+  <body>
+    <div class="contenedor_pagina">
+      <div class="contenedor_uno">
+        <div class="contenedor_uno_uno">
+          <div class="contenedor_uno_uno_uno">
+            <div class="div_clima_bogota_icono">
+              <img src="" alt="icono" id="clima_bogota_icono" />
+            </div>
+            <div class="div_clima_bogota">
+              <p id="clima_bogota"></p>
+            </div>
+          </div>
+          <div class="contenedor_uno_uno_dos">
+            <p id="temp_bogota"></p>
+          </div>
+        </div>
+        <div class="contenedor_uno_dos">
+          <div class="contenedor_uno_dos_uno">
+            <div class="icono_lugar">
+              <img src="src/images/sitio.svg" alt="" />
+            </div>
+            <div class="nombre_ciudad">
+              <p id="p_nombre_ciudad"></p>
+            </div>
+          </div>
+          <div class="contenedor_uno_dos_dos"></div>
+        </div>
+        <div class="contenedor_uno_tres">
+          <div class="contenedor_uno_tres_uno">
+            <div class="contenedor_uno_tres_uno_uno imagen_otra_ciudad">
+              <img src="" alt="" id="imagen_otra" />
+            </div>
+            <div class="contenedor_uno_tres_uno_uno div_temp_otra">
+              <p id="temp_otra"></p>
+            </div>
+            <div class="contenedor_uno_tres_uno_uno div_ciudad_pais">
+              <div class="div_nombre_ciudad_otra">
+                <p id="nombre_ciudad_otra"></p>
+              </div>
+              <div class="div_nombre_pais_otra">
+                <p id="nombre_pais_otra"></p>
+              </div>
+            </div>
+          </div>
+          <div class="contenedor_uno_tres_dos">
+            <div class="contenedor_uno_tres_dos_uno">
+              <p id="humedad"></p>
+            </div>
+            <div class="contenedor_uno_tres_dos_uno">
+              <p>NorthWest</p>
+            </div>
+            <div class="contenedor_uno_tres_dos_uno">
+              <p id="velocidad_viento"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contenedor_dos">
+        <div class="contenedor_dos_uno">
+          <div class="contenedor_dos_uno_uno">
+            <p><span>3 Days </span>Forecast</p>
+          </div>
+          <div class="contenedor_dos_uno_dos">
+            <div class="contenedor_dos_uno_dos_uno">
+              <div class="contenedor_dos_uno_dos_uno_uno">
+                <div class="div_imagen_dia">
+                  <img id="imagen_dia1" src="" alt="" />
+                </div>
+                <div class="div_texto_dia">
+                  <p id="diaSemanaUno"></p>
+                  <p id="diaClimaUno"></p>
+                </div>
+              </div>
+              <div class="contenedor_dos_uno_dos_uno_dos">
+                <p id="tempUno"></p>
+              </div>
+            </div>
+            <div class="contenedor_dos_uno_dos_uno">
+              <div class="contenedor_dos_uno_dos_uno_uno">
+                <div class="div_imagen_dia">
+                  <img id="imagen_dia2" src="" alt="" />
+                </div>
+                <div class="div_texto_dia">
+                  <p id="diaSemanaDos"></p>
+                  <p id="diaClimaDos"></p>
+                </div>
+              </div>
+              <div class="contenedor_dos_uno_dos_uno_dos">
+                <p id="tempDos"></p>
+              </div>
+            </div>
+            <div class="contenedor_dos_uno_dos_uno">
+              <div class="contenedor_dos_uno_dos_uno_uno">
+                <div class="div_imagen_dia">
+                  <img id="imagen_dia3" src="" alt="" />
+                </div>
+                <div class="div_texto_dia">
+                  <p id="diaSemanaTres"></p>
+                  <p id="diaClimaTres"></p>
+                </div>
+              </div>
+              <div class="contenedor_dos_uno_dos_uno_dos">
+                <p id="tempTres"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contenedor_dos_uno">
+          <div class="contenedor_dos_uno_uno">
+            <p class="place_visit">Place to <span>Visit</span></p>
+          </div>
+          <div class="contenedor_lugar_visitar">
+            <div class="icono_lugar">
+              <img src="src/images/sitio.svg" alt="" />
+            </div>
+            <div class="nombre_ciudad_visitar">
+              <p>Singapure</p>
+            </div>
+          </div>
+        </div>
+        <div class="contenedor_dos_uno">
+          <div class="contenedor_dos_uno_uno"></div>
+          <div class="contenedor_dos_uno_dos">
+            <div class="contenedor_tres_uno"></div>
+            <div class="contenedor_tres_dos"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="servicios/climaDiario.js"></script>
+    <script src="servicios/pronosticosSiguientes.js"></script>
+  </body>
+</html>
